@@ -1,0 +1,17 @@
+.new-arrivals.block {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: black;
+  letter-spacing: 16px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: "Adobe Clean";
+}
+
+@media (min-width: 1000px) {
+  .new-arrivals.block {
+    font-size: 100px;
+  }
+}
